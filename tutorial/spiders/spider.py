@@ -9,7 +9,7 @@ mariadb_connection = mariadb.connect(user='root', password='Bach98110', database
 cursor = mariadb_connection.cursor()
 
 class QuotesSpider(scrapy.Spider):
-    name = "policy"
+    name = "privacy"
     
     def start_requests(self):
         urls = [line.rstrip('\n') for line in open('URL.txt')]
