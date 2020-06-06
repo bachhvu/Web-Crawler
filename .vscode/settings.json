@@ -3,5 +3,7 @@
     "cSpell.words": [
         "mariadb",
         "scrapy"
-    ]
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
